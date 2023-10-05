@@ -1,13 +1,13 @@
 #include <Arduino.h>
 
 // put function declarations here:
-#define RX2 16
-#define TX2 17
+#define RXD_2 16
+#define TXD_2 17
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial2.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, RXD_2,TXD_2);
 }
 
 void loop() {

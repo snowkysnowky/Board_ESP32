@@ -29,3 +29,7 @@ Button pin
           Button1 = GPIO 36 (Momentary)
           Button2 = GPIO 39
           Button3 = GPIO 34
+
+Vibration motor pin
+
+          IN = GPIO 13

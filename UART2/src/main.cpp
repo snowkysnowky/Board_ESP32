@@ -13,6 +13,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   Serial2.println("test");
+  delay(1000);
   if(Serial2.available()){
     Serial.println(Serial2.readString());
   }

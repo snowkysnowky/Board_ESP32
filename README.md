@@ -14,3 +14,18 @@ Seven Segmen pin
           
           CLK = GPIO 32      
           DIO = GPIO 33
+          
+Ultrassonic pin
+
+          Triger = GPIO 02
+          Echo   = GPIO 04
+
+Infrared pin
+
+          Out = GPIO 15
+
+Button pin
+
+          Button1 = GPIO 36 (Momentary)
+          Button2 = GPIO 39
+          Button3 = GPIO 34

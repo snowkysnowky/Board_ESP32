@@ -2,6 +2,7 @@
 
 #define pinIR  15   //Deklarasi pin sensor pada A0
 int datasensor;
+
 void setup() {
   Serial.begin(9600);
   pinMode(pinIR, INPUT);  //Deklarasi pin A0 sebagai input

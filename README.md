@@ -33,3 +33,12 @@ Button pin
 Vibration motor pin
 
           IN = GPIO 13
+
+OLED pin
+
+          SDA = GPIO 21
+          SCL = GPIO 22
+
+Lux sensor pin
+
+          S = GPIO 35

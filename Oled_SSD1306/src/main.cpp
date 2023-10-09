@@ -370,7 +370,7 @@ U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SD
 
 int16_t offset;				// current offset for the scrolling text
 u8g2_uint_t width;			// pixel width of the scrolling text (must be lesser than 128 unless U8G2_16BIT is defined
-const char *text = "Doughnut";	// scroll this text from right to left
+const char *text = "DAFFA";	// scroll this text from right to left
 
 const uint8_t tile_area_x_pos = 2;	// Update area left position (in tiles)
 const uint8_t tile_area_y_pos = 3;	// Update area upper position (distance from top in tiles)

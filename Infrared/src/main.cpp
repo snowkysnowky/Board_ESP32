@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-#define pinIR  15   //Deklarasi pin sensor pada A0
+#define pinIR  25   //Deklarasi pin sensor pada A0
 int datasensor;
 
 void setup() {

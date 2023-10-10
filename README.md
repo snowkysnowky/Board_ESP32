@@ -17,12 +17,12 @@ Seven Segmen pin
           
 Ultrassonic pin
 
-          Triger = GPIO 02
-          Echo   = GPIO 04
+          Triger = GPIO 04
+          Echo   = GPIO 15
 
 Infrared pin
 
-          Out = GPIO 15
+          Out = GPIO 25
 
 Button pin
 
@@ -42,3 +42,8 @@ OLED pin
 Lux sensor pin
 
           S = GPIO 35
+
+BMP280 pin
+
+          SDA = GPIO 21
+          SCL = GPIO 22

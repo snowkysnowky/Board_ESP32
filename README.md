@@ -47,3 +47,7 @@ BMP280 pin
 
           SDA = GPIO 21
           SCL = GPIO 22
+
+Vibration sensor pin
+
+          DO = GPIO 26

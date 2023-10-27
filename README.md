@@ -51,3 +51,7 @@ BMP280 pin
 Vibration sensor pin
 
           DO = GPIO 26
+
+RCWL 0516 pin
+
+          OUT = GPIO 27
